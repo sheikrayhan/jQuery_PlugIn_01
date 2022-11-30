@@ -1,0 +1,103 @@
+/*
+Template Name: 
+Author: 
+Version: 1.0.0
+Author URL: 
+UI Designer:
+Description: 
+
+Table Of Content
+========================
+
+
+*/
+/* Common Css Start */
+:root{
+
+}
+body{
+
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a,a:hover{
+   text-decoration: none;
+   display: inline-block;
+}
+/* //Common Css End */
+
+/* Filterizer Section CSS Start */
+#fltrzr h1{
+   text-align: center;
+   padding: 20px 0px;
+   font-weight: 800  ;
+}
+#fltrzr h1 span{
+   color: aquamarine;
+}
+#fltrzr #fltrzr_control li{
+   cursor: pointer !important;
+}
+#fltrzr #fltrzr_control li.active{
+   color: #fff;
+   background-color: aquamarine;
+}
+/* Filterizer Section CSS End */
+
+/* VenoBox Section CSS Start */
+#venobox{
+   margin: 150px 0px 150px 0px;
+}
+#venobox .v_item h2{
+   text-align: center;
+   margin-bottom: 50px;
+   color: aqua;
+   font-weight: 700;
+}
+#venobox .v_item h2 span{
+   color: #111;
+}
+#venobox .v_item h3 span{
+   color: rgb(3, 224, 240);
+}
+#venobox .v_item p{
+   text-align: justify;
+   line-height: 30px;
+}
+#venobox .v_item .heading a{
+   background-color: rgb(0, 255, 234);
+   color: rgb(0, 2, 2);
+}
+#venobox .video{
+   position: relative;
+}
+#venobox .video img{
+   width: 100%;
+   border-radius: 10px;
+   margin-left: 20px;
+
+}
+#venobox .video a{
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   line-height: 60px;
+   text-align: center;
+   background-color: aqua;
+   color: darkslategray;
+   font-size: 20px;
+   position: absolute;
+   left: 50%;
+   transform: translateY(-50%);
+   top: 50%;
+}
+/* VenoBox Section CSS End */

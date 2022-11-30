@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>jQuery Plugin</title>
+      <!-- Favicon link -->
+      <link rel="icon" href="">
+      <!-- Fontawesome Css Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/fontawsome.css">
+      <!-- Slick Css Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/slick.min.css">
+      <!-- Bootstrap Css Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/bootstrap.min.css">
+      <!-- VenoBOx CSS Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/venobox.min.css">
+      <!-- Main Css Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/style.css">
+      <!-- Responsive Css Link -->
+      <link rel="stylesheet" href="jQuery%20Plugin_files/responsive.css">
+
+   </head>
+
+   <body>
+      <!-- Filterizer Section Start -->
+      <section id="fltrzr">
+          <div class="container">
+            <h1><span>F</span>ilteri<span>Z</span>r</h1>
+            <div class="fltrzr_ul">
+               <ul id="fltrzr_control" class="list-group list-group-horizontal justify-content-center my-4">
+                  <li class="list-group-item active" data-filter="all">All</li>
+                  <li class="list-group-item" data-filter="web">Web</li>
+                  <li class="list-group-item" data-filter="graphic">Graphic</li>
+                  <li class="list-group-item" data-filter="nature">Nature</li>
+                  <li class="list-group-item" data-filter="industrial">Industrial</li>
+                  <li class="list-group-item" data-filter="nightscape">Nightscape</li>
+                </ul>
+            </div>
+
+            <div class="row fltrzr_container" style="padding: 0px; position: relative; width: 100%; display: flex; flex-wrap: wrap; height: 804px;">
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="web, graphic" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/web2.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="web" style="opacity: 1; transform: scale(1) translate3d(275px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/wec3.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="graphic" style="opacity: 1; transform: scale(1) translate3d(550px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/graphics.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Graphic</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="nature, nightscape" style="opacity: 1; transform: scale(1) translate3d(825px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/nature.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Nature</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="industrial" style="opacity: 1; transform: scale(1) translate3d(0px, 397px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/industrial.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Industrial</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="nightscape" style="opacity: 1; transform: scale(1) translate3d(275px, 371px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/nightscape.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Nightscape</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+               
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="nightscape" style="opacity: 1; transform: scale(1) translate3d(550px, 418px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/nightscape2.webp" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Nightscape</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+
+               <div class="filtr-item card col-3 pb-3 pt-3" data-category="nature" style="opacity: 1; transform: scale(1) translate3d(825px, 396px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 277px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                  <img src="jQuery%20Plugin_files/nature2.jpg" class="card-img-top img-fluid" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Nature</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+               </div>
+            </div>
+          </div>
+      </section>
+      <!-- Filterizer Section End -->
+
+      <!-- Venobox Section Start -->
+      <section id="venobox">
+          <div class="container">
+            <div class="row v_item">
+               <h2><span>V</span>eno<span>B</span>ox</h2>
+               <div class="col-lg-7 heading">
+                  <h3> <span>&gt;&gt;</span> VenoBOx Video <span>&lt;&lt;</span> </h3>
+                  <p class="py-3">Lorem ipsum dolor sit amet consectetur
+ adipisicing elit. Error provident nostrum laborum maxime obcaecati sunt
+ perspiciatis et, quia omnis iure? Repudiandae aperiam reiciendis nam 
+aspernatur distinctio dolore quis eveniet id amet mollitia, fugit quae 
+enim omnis eaque quibusdam assumenda incidunt sapiente odio optio facere
+ autem vero veniam at. Accusamus hic sapiente, atque commodi adipisci 
+incidunt laboriosam sunt repellat sed nisi culpa ea. Corrupti officiis 
+voluptatem quibusdam id facilis aspernatur harum, excepturi, atque minus
+ cum sunt? Ut exercitationem unde voluptatum ipsam tempora corrupti 
+atque odit quo, quaerat vero. Cumque saepe officiis corrupti nisi 
+commodi laborum velit repudiandae veritatis quisquam esse? Nesciunt.</p>
+                  <a class="btn" href="#">KNOW MORE</a>
+               </div>
+               <div class="col-lg-5 video">
+                     <img src="jQuery%20Plugin_files/vanobox_video_img.jpg" alt="" class="img-fluid align-items-center">
+                  <a href=""><i class="fa-solid fa-play"></i></a>
+               </div>
+            </div>
+          </div>
+      </section>
+      <!-- Venobox Section End -->
+      
+
+      <!-- Jquery Js Link -->
+      <script src="jQuery%20Plugin_files/jquery-1.12.4.min.js"></script>
+      <!-- Slick Js Link -->
+      <script src="jQuery%20Plugin_files/slick.min.js"></script>
+      <!-- Bootstrap Js Link -->
+      <script src="jQuery%20Plugin_files/bootstrap.min.js"></script>
+      <!-- Filterizer js Link -->
+      <script src="jQuery%20Plugin_files/jquery.filterizr.min.js"></script>
+      <!-- VenoBox JS Link -->
+      <script src="jQuery%20Plugin_files/venobox.min.js"></script>
+      <!-- Main Js Link -->
+      <script src="jQuery%20Plugin_files/script.js"></script>
+
+   
+
+</body></html>
